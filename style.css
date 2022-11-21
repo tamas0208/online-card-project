@@ -22,10 +22,11 @@
     background: url('assets/background-image.jpg') no-repeat center center fixed;
     background-size: cover;
     color: rgb(198, 240, 102);
-    text-shadow: 2px 2px #000000;
+    text-shadow: 3px 3px #000000;
     font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
     font-stretch: expanded;
     font-size: 20px;
+    letter-spacing: 1px;
   }
   
   .profile-card {
@@ -54,7 +55,7 @@
     padding: 5px;
     background-color: #666;
     transition: all 0.5s ease-in-out;
-    filter: grayscale(200%);
+    filter: grayscale(100%);
     box-shadow: hsla(0, 0%, 0%, .8) 9px 9px 5px; 
   }
   
@@ -88,21 +89,24 @@
   h1 {
     font-size: 28px;
     text-transform: capitalize;
-    color: white  
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 900;  
   }
   
   h2 {
     font-size: 18px;
     color: white;
+    letter-spacing: 2px;
   }
 
   span {
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
   }
   
   i{
-    color: yellow;
+    color: hsl(60, 80%, 50%);
     padding: 5px;
   }
   
