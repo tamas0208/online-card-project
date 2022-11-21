@@ -24,6 +24,7 @@
     color: rgb(198, 240, 102);
     text-shadow: 2px 2px #000000;
     font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
     font-size: 20px;
   }
   
@@ -85,21 +86,27 @@
   }
   
   h1 {
-    font-size: 24px;
-    text-transform: uppercase;  
+    font-size: 28px;
+    text-transform: capitalize;
+    color: white  
   }
   
+  h2 {
+    font-size: 18px;
+    color: white;
+  }
+
   span {
     font-size: 14px;
     font-style: italic;
   }
   
   i{
-    color: steelblue;
+    color: yellow;
+    padding: 5px;
   }
   
   i:hover{
     transform: scale(1.1);
-    filter: brightness(200%);
-  }
-  
+    filter: invert(90%);
+  }  
